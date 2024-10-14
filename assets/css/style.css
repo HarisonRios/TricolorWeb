@@ -255,50 +255,35 @@ body {
 }
 
 
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    color: white;
+    margin-bottom: 250px;
+}
 
-.right-sobre {
-    height: 100%;
+.left-sobre {
     width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-.imagem-sobre {
+.right-sobre {
+    width: 50%;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    position: absolute;
-}
-
-.complemento-sobre {
-    width: auto;
-    z-index: 0;
-}
-
-.complemento-sobre img {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    width: 90%;
-    z-index: 1000;
-    animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+    justify-content: flex-end;
 }
 
 .imagem-sobre img {
-    width: 90%;
-    z-index: 99;
+    max-width: 300px;
+    width: 100%;
 }
+
+
 
 .skills {
     width: 100%;
