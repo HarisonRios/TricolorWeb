@@ -368,6 +368,51 @@ body {
     display: flex;
 }
 
+
+#box-skills1{
+    background-color: #4ca1469c;
+    transition: background-color 0.3s;
+}
+
+#box-skills1:hover{
+    background-color: #12a308bb;
+}
+
+
+#box-skills2{
+    background-color: #ef402d86;
+    transition: background-color 0.3s;
+}
+
+#box-skills2:hover{
+    background-color: #fd1900bd;
+}
+
+
+
+#box-skills3{
+    background-color: #df2e7588;
+    transition: background-color 0.3s;
+}
+
+#box-skills3:hover{
+    background-color:  #ff0066b7;
+}
+
+
+
+#box-skills4{
+    background-color: #bf8e2c7a;
+    transition: background-color 0.3s;
+}
+
+#box-skills4:hover{
+    background-color: #bf8e2cd2;
+}
+
+
+
+
 @media (min-width: 600px) {
     .conteudo-skills {
         grid-template-columns: repeat(2, 1fr);
@@ -402,6 +447,8 @@ body {
     align-items: center;
     gap: 2rem;
 }
+
+
 
 .imagens-case {
     width: 50%;
